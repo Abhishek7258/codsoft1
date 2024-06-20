@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+    justify-content: space-between;
+    position: relative;
+}
+.header-left{
+     display: flex;
+     align-items: center;
+}
+.logo{
+    width: 100px;
+    margin-left: 20px;
+}
+.menu ul{
+    display:flex;
+    list-style: none;
+    margin-left: 10px;
+    letter-spacing: 1.2px;
+}
+.menu ul li{
+    margin:00px 30px;
+    padding: 20px 5px;
+}
+.megamenu{
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.8s;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(20, 20, 19, 0.888);
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+.menu>ul>li:hover .megamenu{
+    transform: scaleY(1);
+}
+.menu>ul>li:hover i{
+    rotate: 180deg;
+    transition: 1s;
+}
+.menu>ul>li a:hover{
+    color: rgb(255, 191, 0);
+}
+.header-right{
+  margin-right: 70px;
+  align-items: center;
+  letter-spacing: 1.2px;
+  display: flex;
+}
+.support:hover i{
+rotate: 180deg;
+transition: 1.2s;
+}
+.serch{
+    margin-left: 9px;
+    border-left: 2px solid #ccc;
+    padding: 15px 10px;
+}
+/* end header */
+.content{
+    margin: 00px 50px;
+    margin-bottom: 60px;
+}
+.newsroom{
+    color: grey;
+    font-size: 46px;
+    letter-spacing: 1.2px;
+    margin:40px 00px;
+}
+.top-serch{
+    font-size: 24px;
+    color: grey;
+    letter-spacing: 1.2px;
+}
+.liama{
+    margin-top: 20px;
+}
+.meta{
+    letter-spacing: 1.3px;
+    word-spacing: 4px;
+    margin-top: 30px;
+}
+.meta p:nth-child(1){
+    margin-top: 10px;
+    border-bottom: 2px solid aqua;
+    width: fit-content;
+    padding: 4px 9px;
+}
+.face-head{
+    font-size: 23px;
+}
+.liama-container{
+    display: flex;
+    justify-content: space-between;
+}
+.facebook{
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.face-img{
+    margin-top: 70px;
+}
+
+.celebrate img{
+    margin-right: 10px;
+    margin-left: 150px;
+}
+.celebrate{
+    background-color:rgba(212, 203, 203, 0.436);
+   
+    
+}
+/*  */
+.press-link{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: rgba(128, 128, 128, 0.342);
+    margin-top: 40px;
+}
+.press1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.press2 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.press2 ul li{
+    margin: 00px 100px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.shop{
+   width: 1000px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 40px;
+   padding-left: 0px;
+   color: white;
+}
+.shop p{
+    cursor: pointer;
+}
+.shop p:hover{
+color: aqua;}
